@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
+import initialData from './initial-data';
 
-const App = () => 'Hello'
+const App = () => {
+  const [, setState] = useState(initialData);
+  
+
+  
+}
 
 ReactDOM.render(
   <React.StrictMode>
